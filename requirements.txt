@@ -1,0 +1,4 @@
+PyYAML==5.3.1
+requests==2.24.0
+cloudflare==2.8.9
+slackclient==2.8.0

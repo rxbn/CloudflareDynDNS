@@ -1,0 +1,36 @@
+---
+general:
+  debug: true
+  rootDomain: example.com
+  storage: /var/tmp/storage.yml
+  enableDelete: true
+  deleteSkips: 5
+  fritzbox:
+    enabled: true
+    ip: 192.168.1.1
+  ipProviders:
+    enabled: true
+    providers:
+      - https://ifconfig.me/ip
+      - https://ipecho.net/plain
+      - https://myip.is/ip
+
+slack:
+  enabled: true
+  webhook: https://hooks.slack.com/services/abc/def
+
+cloudflare:
+  email: mail@example.com
+  apiKey: abc
+  dnsZone: def
+  recordType: CNAME
+  proxied: true
+  ttl: 1
+  ignoredHosts:
+    - vpn.example.com
+  syncInterval: 60
+
+traefik:
+  url: https://traefik.example.com
+  ignoredHosts:
+    - .local.example.com
