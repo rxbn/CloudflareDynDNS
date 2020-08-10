@@ -36,7 +36,7 @@ sl_msg = {'attachments': []}
 cf = None
 zone_id = None
 
-__version__ = "1.0.0"
+__version__ = "1.0.1"
 __author__ = "rxbn (2020)"
 
 

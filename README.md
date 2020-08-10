@@ -73,7 +73,6 @@ python cfdyndns.py -c /opt/config.yml
 | -------- | -------- | -------- | -------- |
 | `email` | Mail address of Cloudflare account | `mail@mydomain.com` | yes |
 | `apiKey` | Cloudflare API Key | `3590586a4aa61ad934cccc15b245840c` | yes |
-| `dnsZone` | Cloudflare DNS zone ID | `915f3ffb3491cdd4dbec4182d518ce69` | yes |
 | `recordType` | Record type for new records | `CNAME` or `A` | yes |
 | `proxied` | Where to route the traffic through Cloudflare | `true` or `false` | yes |
 | `ttl` | DNS record TTL | `120` | if `proxied` is `false` |

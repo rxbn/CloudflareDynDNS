@@ -22,7 +22,6 @@ slack:
 cloudflare:
   email: mail@example.com
   apiKey: abc
-  dnsZone: def
   recordType: CNAME
   proxied: true
   ttl: 1
